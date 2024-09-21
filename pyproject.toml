@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "taxidpro"
+version = "0.0.5"
+authors = [{ name = "Alan Hettinger", email = "alan@balancer.team" }]
+description = "Tax ID Validation Library for Python"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = ["requests"]
+
+[project.optional-dependencies]
+dev = ["pytest", "twine", "hatchling"]
+
+[project.urls]
+Homepage = "https://github.com/balancer-team/taxidpro-py"
+Issues = "https://github.com/balancer-team/taxidpro-py/issues"

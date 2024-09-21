@@ -1,4 +1,4 @@
-from .main import TaxIDPro
+from taxidpro.main import TaxIDPro
 import os
 from dotenv import load_dotenv
 
