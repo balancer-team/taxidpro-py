@@ -1,6 +1,6 @@
 [project]
 name = "taxidpro"
-version = "1.0.1"
+version = "1.0.2"
 authors = [{ name = "Alan Hettinger", email = "alan@balancer.team" }]
 description = "Tax ID Validation Library for Python"
 readme = "README.md"
